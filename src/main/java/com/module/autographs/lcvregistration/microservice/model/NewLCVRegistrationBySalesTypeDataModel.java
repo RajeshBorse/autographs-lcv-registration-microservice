@@ -3,7 +3,7 @@ package com.module.autographs.lcvregistration.microservice.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "NewLCVRegistrationBySalesTypeCollection")
+@Document(collection = "salesTypeCollection")
 public class NewLCVRegistrationBySalesTypeDataModel {
 
     @Id
