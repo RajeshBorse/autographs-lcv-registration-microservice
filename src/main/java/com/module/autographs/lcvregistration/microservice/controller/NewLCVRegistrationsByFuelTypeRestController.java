@@ -25,7 +25,7 @@ import static com.module.autographs.lcvregistration.microservice.util.Constants.
 
 
 @RestController
-@RequestMapping("/api/v1/newLCVRegistrations")
+@RequestMapping("/api/v1/newLcvRegistrations")
 @Tag(name = "NewLCVRegistrationsByFuelTypeRestController")
 
 public class NewLCVRegistrationsByFuelTypeRestController {

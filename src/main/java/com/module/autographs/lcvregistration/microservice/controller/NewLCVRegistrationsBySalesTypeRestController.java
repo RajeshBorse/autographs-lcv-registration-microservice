@@ -25,7 +25,7 @@ import static com.module.autographs.lcvregistration.microservice.util.Constants.
 import static com.module.autographs.lcvregistration.microservice.util.Constants.SWAGGER_DELETE_API_BY_SALES_TYPE_SUCCESS;
 
 @RestController
-@RequestMapping("/api/v1/newLCVRegistrations")
+@RequestMapping("/api/v1/newLcvRegistrations")
 @Tag(name = "NewLCVRegistrationsBySalesTypeRestController")
 
 public class NewLCVRegistrationsBySalesTypeRestController {
